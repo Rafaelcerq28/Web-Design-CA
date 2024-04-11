@@ -1,0 +1,135 @@
+/* ------------------------------- BACKGROUND IMAGE ------------------------------- */
+.webpage-background{
+	background-image: url('https://images.squarespace-cdn.com/content/v1/6088bf84f6460a6aaca60f42/1623039564791-SWZ7SOVSSIPIW1VCL2G9/610_9576.jpg');
+	background-size: cover;
+
+}
+/* ------------------------------- NAVBAR + LOGO ------------------------------- */
+.logo-icon{
+	font-size: 50px;
+	color: white;
+}
+
+/*Google icons*/
+span.material-symbols-outlined{
+	font-size: 25px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/* ------------------------------- IMG CAROUSEL------------------------------- */
+img.carousel-img{
+	width: 100%;
+}
+.carousel-container{
+	padding: 0% !important;
+}
+
+/* ------------------------------- CONTENT ------------------------------- */
+.container-style{
+	background-color: #c5cbcf;
+}
+
+.content-msg{
+	background-color: white;
+}
+
+p.content-msg{
+    font-size: 36px;
+    text-align: center;
+}
+
+/*Google fonts*/
+.anton-regular {
+	font-family: "Anton", sans-serif;
+	font-weight: 400;
+		font-style: normal;
+}
+
+
+/*Small screens*/
+@media (max-width: 768px) {
+  .custom-margin {
+    margin-top: 20px !important; 
+  }
+}
+
+.blur-mc {
+	filter: blur(0.5px);
+	filter: grayscale(50%);
+}
+
+/* ------------------------------- BANNER ------------------------------- */
+.blur {
+	filter: blur(0.5px);
+	filter: grayscale(100%);
+}
+.banner-style{
+	position: absolute; 
+	top: 50%; left: 50%; 
+	transform: translate(-50%, -50%); 
+	text-align: center;
+}
+
+h1.banner-style{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width:500px; 
+}
+
+h2.banner-style{
+	margin-top: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width:500px; 
+}
+div.banner-style{
+	width:500px; height: 500px;
+}
+/*font*/
+.khand-light {
+  font-family: "Khand", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.khand-regular {
+  font-family: "Khand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.khand-medium {
+  font-family: "Khand", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.khand-semibold {
+  font-family: "Khand", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.khand-bold {
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ------------------------------- JOIN US HOME ------------------------------- */
+.button-home {
+    background-color: white; /* Define a cor de fundo como branca */
+    border: 2px solid black; /* Adiciona uma borda sólida preta de 2 pixels */
+    color: black; /* Define a cor do texto como preto */
+    padding: 10px 20px; /* Adiciona um preenchimento interno de 10px na vertical e 20px na horizontal */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    text-decoration: none; /* Remove a decoração de texto, como sublinhado */
+    display: inline-block; /* Faz com que o botão se comporte como um bloco, permitindo que você ajuste o tamanho e o espaçamento */
+}

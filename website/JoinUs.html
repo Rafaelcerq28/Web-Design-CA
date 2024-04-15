@@ -58,16 +58,19 @@
 	<!-- First part-->
 	<div class="JoinImagesContainer">
 	<div class="JoinImages">
-	<img src="images/membership.png" alt="Membership" class="cursorClick" id="membership"   onclick="openImgMembership()">
-		<div class="floatingMembers" id="floatingMembers">
-		<img src="images/membershipDetails.png" alt="details of membership">
-	<p>	<a href="#" onclick="closeImgMembership()" class="closeLinkM">Exit</a></p>
-	</div>
-	<img src="images/dayPass.png" alt="Day Pass" class="cursorClick" id="dayPass"   onclick="openImgDay()">
-	<div class="floatingDay" id="floatingDay">
-		<img src="images/dayPassDetail.png" alt="details of day pass">
-	<p>	<a href="#" onclick="closeImgDay()" class="closeLinkD">Exit</a></p>
-	</div>
+	
+			<img src="images/membership.png" alt="Membership" class="cursorClick" id="membership"   onclick="openImgMembership()">
+				<div class="floatingMembers" id="floatingMembers">
+				<img src="images/membershipDetails.png" alt="details of membership">
+			<p>	<a href="#" onclick="closeImgMembership()" class="closeLinkM">Exit</a></p>
+					
+			</div>
+			
+			<img src="images/dayPass.png" alt="Day Pass" class="cursorClick" id="dayPass"   onclick="openImgDay()">
+			<div class="floatingDay" id="floatingDay">
+				<img src="images/dayPassDetail.png" alt="details of day pass">
+			<p>	<a href="#" onclick="closeImgDay()" class="closeLinkD">Exit</a></p>
+			</div>
 	</div>
 	<br>
 	<br>
@@ -79,13 +82,14 @@
 			<legend>NEW MEMBER</legend>
 		
 			<label for="name">Name*</label>
-			<input type="text" id="nameSave" minlength="1" maxlength="20" placeholder="Enter your name"required=""><br>
+			<input type="text" id="nameSave" name="nameSave" minlength="1" maxlength="20" placeholder="Enter your name"required=""><br>
 			
 			<label for="surname">Surname*</label>
-			<input type="text" id="surnameSave" minlength="1" maxlength="20" placeholder="Enter your surname"required=""><br>
+			<input type="text" id="surnameSave" name="surnameSave" minlength="1" maxlength="20" placeholder="Enter your surname"required=""><br>
 			
 			<label for="text">Gender</label>
 			<select id="dropdown" name="dropdown">
+			<option value="">select</option>
 			  <option value="option1">Female</option>
 			  <option value="option2">Male</option>
 			</select>
@@ -95,6 +99,7 @@
 			
 			<label for="dropdown">Day:</label>
 			<select id="dropdown" name="dropdown">
+			<option value="">select</option>
 			  <option value="option1">1</option>
 			  <option value="option2">2</option>
 			  <option value="option3">3</option>
@@ -131,6 +136,7 @@
 			
 			<label for="dropdown">Month:</label>
 			<select id="dropdown" name="dropdown">
+			<option value="">select</option>
 			  <option value="option1">Jan</option>
 			  <option value="option2">Feb</option>
 			  <option value="option3">March</option>
@@ -148,20 +154,31 @@
 			
 			
 			<label for="text">	Year: </label>
-			<input type="text" class="form-input-field w-input" maxlength="4"
-			minlength="4" pattern="^(19[0-9][0-9]|190[7-9]|200[0-9])$" placeholder="YYYY" id="year" name="year"><br>
+			<input type="text" id="yearSave" name="yearSave" class="form-input-field w-input" maxlength="4"
+			minlength="4" pattern="^(19[0-9][0-9]|190[7-9]|200[0-9])$" placeholder="YYYY" name="year"><br>
 			<! –– It validates that you only write numbers and 4 in total as the format asked––>
 			<!  ––The oldest alive person in the world born in 1907, so this is the oldest year the page accepts
 			and we accept in the gym people 15 years old or older.––>
 			</p>
 			
+			<label for="dropdown">Membership/Day Pass to choose:*</label>
+			<select id="selectedSave" name="selectedSave">
+			 <option value="">select</option>
+			  <option value="option1">1 Day Pass</option>
+			  <option value="option2">2 Days Pass</option>
+			  <option value="option3">3 Day Pass</option>
+			  <option value="option4">1 Month</option>
+			  <option value="option5">6 Months</option>
+			  <option value="option6">1 Year</option>
+			  			 		  
+			</select>
+			
 			<H4>Contact details:</H4>
 
-			<label for="phone">	Phone number*</label>
-			<small><label for="phoneSave">(number with 10 digits):</label>
+			<label for="phone">	Phone number (must be with 10 digits):</label>
 			
 			<input type="phone" id="phoneSave" name="phoneSave" class="form-input-field w-input" maxlength="10"
-			minlength="10" pattern="[0-9]{10}"  placeholder="Phone" id="Phone" name="phone" required="">
+			minlength="10" pattern="[0-9]{10}"  placeholder="Phone" required="">
 	
 			</small><br>
 			
@@ -174,7 +191,7 @@
 						
 			
 			<label for="email">Email*</label>
-			<input type="email" name="emailSave" placeholder="enter your Email" required=""><br>
+			<input type="email" name="emailSave" id="emailSave" placeholder="enter your Email" required=""><br>
 	
 					
 			 <label>How do you prefer we contact you?
@@ -185,7 +202,7 @@
 
 						
 			
-			<input type="checkbox"  value="radio1"> I confirm that I'm 16 years of age or over 16
+			<input type="checkbox"  id="checkBoxAgeSave" value="radio1"> I confirm that I'm 16 years of age or over 16
 			<br>
 			<div class="form-check form-switch">
 			<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
@@ -199,6 +216,7 @@
 			<br>
 			
 			<!-- Javascript -->
+			
 			<script type="text/javascript" src="joinGymMessage.js">
 			</script>
 		    <button onclick="joinGym()" type="button" class="btn btn-info">JOIN</button>

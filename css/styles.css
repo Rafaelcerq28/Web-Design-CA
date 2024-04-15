@@ -23,6 +23,11 @@ span.material-symbols-outlined{
   'opsz' 24
 }
 
+.tagline{
+    margin-bottom: 20px;
+    border: solid black 1px;
+}
+
 /* ------------------------------- IMG CAROUSEL------------------------------- */
 img.carousel-img{
 	width: 100%;
@@ -77,6 +82,24 @@ p.content-msg{
 .blur-mc {
 	filter: blur(0.5px);
 	filter: grayscale(50%);
+}
+
+.classes-style{
+  text-align: center;
+}
+
+.class-description{
+  color:#707070;
+}
+
+.border-style{
+    border-right: solid #ababab 1px;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* ------------------------------- BANNER ------------------------------- */

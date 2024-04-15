@@ -31,6 +31,15 @@ img.carousel-img{
 	padding: 0% !important;
 }
 
+.carousel-msg{
+  position: absolute !important;
+  top: 50%;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+  text-align: center !important;
+  width: 500px;
+}
+
 /* ------------------------------- CONTENT ------------------------------- */
 .container-style{
 	background-color: #c5cbcf;
@@ -125,11 +134,27 @@ div.banner-style{
 
 /* ------------------------------- JOIN US HOME ------------------------------- */
 .button-home {
-    background-color: white; /* Define a cor de fundo como branca */
-    border: 2px solid black; /* Adiciona uma borda sólida preta de 2 pixels */
-    color: black; /* Define a cor do texto como preto */
-    padding: 10px 20px; /* Adiciona um preenchimento interno de 10px na vertical e 20px na horizontal */
-    text-align: center; /* Centraliza o texto horizontalmente */
-    text-decoration: none; /* Remove a decoração de texto, como sublinhado */
-    display: inline-block; /* Faz com que o botão se comporte como um bloco, permitindo que você ajuste o tamanho e o espaçamento */
+    background-color: white;
+    border: 2px solid black;
+    color:
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*Small screens*/
+@media (max-width: 768px) {
+  .button-margin {
+    margin-bottom: 20px;
+    padding-bottom: 20px; 
+    padding-top: 20px;
+  }
+}
+
+/* ------------------------------- FOOTER ------------------------------- */
+.footer-style{
+  background-color: white;
+  margin-bottom: 0px;
+  padding-bottom: 1px;
 }

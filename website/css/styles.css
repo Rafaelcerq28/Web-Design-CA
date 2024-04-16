@@ -1,0 +1,381 @@
+/* ------------------------------- BACKGROUND IMAGE ------------------------------- */
+.webpage-background{
+	background-image: url('https://images.squarespace-cdn.com/content/v1/6088bf84f6460a6aaca60f42/1623039564791-SWZ7SOVSSIPIW1VCL2G9/610_9576.jpg');
+	background-size: cover;
+
+}
+/* ------------------------------- NAVBAR + LOGO ------------------------------- */
+.logo-icon{
+	font-size: 50px;
+	color: white;
+}
+
+/*Google icons*/
+span.material-symbols-outlined{
+	font-size: 25px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/* ------------------------------- IMG CAROUSEL------------------------------- */
+img.carousel-img{
+	width: 100%;
+}
+.carousel-container{
+	padding: 0% !important;
+}
+
+/* ------------------------------- CONTENT ------------------------------- */
+.container-style{
+	background-color: #c5cbcf;
+}
+
+.content-msg{
+	background-color: white;
+}
+
+p.content-msg{
+    font-size: 36px;
+    text-align: center;
+}
+
+/*Google fonts*/
+.anton-regular {
+	font-family: "Anton", sans-serif;
+	font-weight: 400;
+		font-style: normal;
+}
+
+
+/*Small screens*/
+@media (max-width: 768px) {
+  .custom-margin {
+    margin-top: 20px !important; 
+  }
+}
+
+.blur-mc {
+	filter: blur(0.5px);
+	filter: grayscale(50%);
+}
+
+/* ------------------------------- BANNER ------------------------------- */
+.blur {
+	filter: blur(0.5px);
+	filter: grayscale(100%);
+}
+.banner-style{
+	position: absolute; 
+	top: 50%; left: 50%; 
+	transform: translate(-50%, -50%); 
+	text-align: center;
+}
+
+h1.banner-style{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width:500px; 
+}
+
+h2.banner-style{
+	margin-top: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width:500px; 
+}
+div.banner-style{
+	width:500px; height: 500px;
+}
+/*font*/
+.khand-light {
+  font-family: "Khand", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.khand-regular {
+  font-family: "Khand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.khand-medium {
+  font-family: "Khand", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.khand-semibold {
+  font-family: "Khand", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.khand-bold {
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ------------------------------- JOIN US HOME ------------------------------- */
+.button-home {
+    background-color: white; /* Define a cor de fundo como branca */
+    border: 2px solid black; /* Adiciona uma borda sólida preta de 2 pixels */
+    color: black; /* Define a cor do texto como preto */
+    padding: 10px 20px; /* Adiciona um preenchimento interno de 10px na vertical e 20px na horizontal */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    text-decoration: none; /* Remove a decoração de texto, como sublinhado */
+    display: inline-block; /* Faz com que o botão se comporte como um bloco, permitindo que você ajuste o tamanho e o espaçamento */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------- ADDED 15.04 BY SANDY------------------------------- */
+/* ------------------------------- FORM ------------------------------- */
+
+
+form {
+    margin: 0;
+}
+.formContainer {
+    
+	max-width: 600px;
+    margin: 0 auto; 
+}  /*making my form to be centered and not in all the width of my page*/
+
+.formWrapper{
+	BACKGROUND: url("../images/formBack.jpg");
+	padding:15px;
+	border-redius:6px;
+	margin: 0 auto;
+}
+
+
+
+/* ------------------------------- MEMBERSHIP AND DAY PASS ------------------------------- */
+.JoinImagesContainer {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cursorClick {
+	cursor: pointer;
+
+}
+
+.JoinImages {
+	display:flex;
+	justify-content:center;
+
+
+}
+
+.JoinImages img {
+	width: 30%;
+	margin: 0 20px;
+	
+
+}
+
+		/* -------------- MEMBERSHIP  ---------------- */
+		.floatingMembers {
+		display:none;
+		position: absolute;
+		width:100%;
+		height: 100%;
+		text-align: center;
+		}
+
+		.closeLinkM{
+			background-color:#C5E85A;
+			font-size: 60px;
+			color: white;
+		}
+		/* -------------- DAY PASS  ---------------- */
+		
+		.floatingDay {
+		display:none;
+		position: absolute;
+		width:100%;
+		height: 100%;
+		text-align: center;
+		}
+
+		.closeLinkD{
+			background-color:#3CC0DE;
+			font-size: 60px;
+			color: white;
+		}
+
+		/* ------------For page team_trainers-----------------*/
+		.getTrainer{
+			font-size:50px;
+			color:white;
+			text-align: center;
+			background-color: black ;
+			
+			
+			font-family: "Bitter", serif;
+			font-optical-sizing: auto;
+			font-weight: <weight>;
+			font-style: normal;
+			}
+			
+		.getTrial{
+			font-size:25px;
+			color:black;
+			text-align: center;
+			
+			}
+			
+		.buttonTrial{
+			background-color: #8EE6FA;
+			 border-radius: 10px;
+		}
+	
+		.containerT{
+			width: 100%; //*to adjust my images, they were huge*//
+			margin: auto;
+				
+			}
+			
+		.containerT p{
+			background-color: white ;
+		}
+			
+		.image-containerT {
+			display: flex;
+			flex-wrap:wrap;
+			justify-content: center;
+			
+		}
+		
+		
+
+		.image-containerT div{
+			text-align: center;
+			margin: 3px;
+			border: 8px solid blue; //*to give some contrast between the backgroung and the images *//
+				
+			}
+		
+		.image-containerT div p{
+			color: black ; //*for the text under the images*//
+			}
+		
+		.imgTrainers{
+			width:290px;
+			height: 425px;
+			margin: 12px; //*this is the one giving a small space betwwen the images*//
+			//*I added first the border here but it must be in the img container *//
+			}
+			
+		.detailTrainers{
+		background-color: yellow;
+		border-radius: 5px;
+		display:none; //*this will make it not appear until the cursor is over the image*//
+		}
+			
+		.cursorClickTrain {
+		cursor: pointer;
+		width:290px;
+			height: 425px;
+			margin: 12px; //*this is the one giving a small space betwwen the images*//
+			//*I added first the border here but it must be in the img container *//
+
+}
+
+		.cursorClickTrain:hover {
+			transform: scale(1.07);
+		}
+			
+			/* -------------- DETAILS TRAINERS  ---------------- */
+		.floatingTrainers {
+		display:none;
+		position: fixed;
+		width:100%;
+		height: 100%;
+		text-align: center;
+		top:0;
+		left:0;
+		z-index:9999; //*this is needed to make the image with the detail appear in the position of the page where we are, wthout this the details apperead at the end of the page were the user wont see easily*//
+		}
+		
+		.floatingTrainers img{
+		margin: 15px;
+		
+		max-width: 75%;
+		}
+
+		.closeLinkT{
+			background-color:#7AB9C3;
+			font-size: 25px;
+			color: white;
+		}
+
+		.infoExtra {
+		font-size:35px;
+		
+		font-family: "Cinzel", serif;
+		font-optical-sizing: auto;
+		font-weight: <weight>;
+		font-style: normal;
+		
+		
+			color:black ;
+			text-align: center;
+			background-color: white ;
+			}
+		}
+		
+		.floatingTrainers2 {
+		display:none;
+		position: fixed;
+		width:100%;
+		height: 100%;
+		text-align: center;
+		top:0;
+		left:0;
+		z-index:9999; //*this is needed to make the image with the detail appear in the position of the page where we are, wthout this the details apperead at the end of the page were the user wont see easily*//
+		}
+		
+		.floatingTrainers2 img{
+		margin: 15px;
+		
+		max-width: 75%;
+		}
+		
+		.containerTraining{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		}
+		
+		.InfoExtraTraining{
+			background-color: #788C8F ;
+			padding: 15px;
+			}
+		
+		.InfoExtraTraining p, ul {
+		color:white;
+		font-size: 20px;
+		}
+
+/* ------------------------------- CLOSE ADDED 15.04 BY SANDY------------------------------- */

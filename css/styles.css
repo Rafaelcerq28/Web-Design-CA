@@ -239,7 +239,6 @@ img.instagram{
   }
 }
 
-
 img.facebook{
   width: 7%;
   height: 100%;
@@ -254,3 +253,6 @@ img.facebook{
   }
 }
 
+.icons{
+  display: flex;
+}

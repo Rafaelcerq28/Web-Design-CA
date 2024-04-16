@@ -59,6 +59,11 @@ p.content-msg{
     text-align: center;
 }
 
+.mg{
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
 /*Google fonts*/
 .anton-regular {
 	font-family: "Anton", sans-serif;
@@ -79,7 +84,6 @@ p.content-msg{
   }
 }
 
-/*Small screens*/
 @media (max-width: 768px) {
   .custom-padding {
     padding-top: 10%; 
@@ -87,6 +91,17 @@ p.content-msg{
   }
 }
 
+@media (max-width: 768px) {
+  .custom-padding-img {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .margin-sm {
+    margin: 0px !important; 
+  }
+}
 .blur-mc {
 	filter: blur(0.5px);
 	filter: grayscale(50%);
@@ -114,7 +129,6 @@ p.content-msg{
 
 /* ------------------------------- BANNER ------------------------------- */
 .blur {
-	filter: blur(0.5px);
 	filter: grayscale(100%);
 }
 .banner-style{
@@ -212,7 +226,6 @@ div.banner-style{
   padding-bottom: 1px;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 a.icon{

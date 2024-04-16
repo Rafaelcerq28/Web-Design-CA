@@ -288,3 +288,241 @@ img.facebook{
     padding-top: 0.5rem !important;
   }
 }
+
+
+
+
+/* ------------------------------- ADDED 15.04 BY SANDY------------------------------- */
+/* ------------------------------- FORM ------------------------------- */
+
+
+form {
+    margin: 0;
+}
+.formContainer {
+    
+  max-width: 600px;
+    margin: 0 auto; 
+}  /*making my form to be centered and not in all the width of my page*/
+
+.formWrapper{
+  BACKGROUND: url("../images/formBack.jpg");
+  padding:15px;
+  border-redius:6px;
+  margin: 0 auto;
+}
+
+
+
+/* ------------------------------- MEMBERSHIP AND DAY PASS ------------------------------- */
+.JoinImagesContainer {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cursorClick {
+  cursor: pointer;
+
+}
+
+.JoinImages {
+  display:flex;
+  justify-content:center;
+
+
+}
+
+.JoinImages img {
+  width: 30%;
+  margin: 0 20px;
+  
+
+}
+
+    /* -------------- MEMBERSHIP  ---------------- */
+    .floatingMembers {
+    display:none;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    }
+
+    .closeLinkM{
+      background-color:#C5E85A;
+      font-size: 60px;
+      color: white;
+    }
+    /* -------------- DAY PASS  ---------------- */
+    
+    .floatingDay {
+    display:none;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    }
+
+    .closeLinkD{
+      background-color:#3CC0DE;
+      font-size: 60px;
+      color: white;
+    }
+
+    /* ------------For page team_trainers-----------------*/
+    .getTrainer{
+      font-size:50px;
+      color:white;
+      text-align: center;
+      background-color: black ;
+      
+      
+      font-family: "Bitter", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      }
+      
+    .getTrial{
+      font-size:25px;
+      color:black;
+      text-align: center;
+      
+      }
+      
+    .buttonTrial{
+      background-color: #8EE6FA;
+       border-radius: 10px;
+    }
+  
+    .containerT{
+      width: 100%; //*to adjust my images, they were huge*//
+      margin: auto;
+        
+      }
+      
+    .containerT p{
+      background-color: white ;
+    }
+      
+    .image-containerT {
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      
+    }
+    
+    
+
+    .image-containerT div{
+      text-align: center;
+      margin: 3px;
+      border: 8px solid blue; //*to give some contrast between the backgroung and the images *//
+        
+      }
+    
+    .image-containerT div p{
+      color: black ; //*for the text under the images*//
+      }
+    
+    .imgTrainers{
+      width:290px;
+      height: 425px;
+      margin: 12px; //*this is the one giving a small space betwwen the images*//
+      //*I added first the border here but it must be in the img container *//
+      }
+      
+    .detailTrainers{
+    background-color: yellow;
+    border-radius: 5px;
+    display:none; //*this will make it not appear until the cursor is over the image*//
+    }
+      
+    .cursorClickTrain {
+    cursor: pointer;
+    width:290px;
+      height: 425px;
+      margin: 12px; //*this is the one giving a small space betwwen the images*//
+      //*I added first the border here but it must be in the img container *//
+
+}
+
+    .cursorClickTrain:hover {
+      transform: scale(1.07);
+    }
+      
+      /* -------------- DETAILS TRAINERS  ---------------- */
+    .floatingTrainers {
+    display:none;
+    position: fixed;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    top:0;
+    left:0;
+    z-index:9999; //*this is needed to make the image with the detail appear in the position of the page where we are, wthout this the details apperead at the end of the page were the user wont see easily*//
+    }
+    
+    .floatingTrainers img{
+    margin: 15px;
+    
+    max-width: 75%;
+    }
+
+    .closeLinkT{
+      background-color:#7AB9C3;
+      font-size: 25px;
+      color: white;
+    }
+
+    .infoExtra {
+    font-size:35px;
+    
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+    
+      color:black ;
+      text-align: center;
+      background-color: white ;
+      }
+    }
+    
+    .floatingTrainers2 {
+    display:none;
+    position: fixed;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    top:0;
+    left:0;
+    z-index:9999; //*this is needed to make the image with the detail appear in the position of the page where we are, wthout this the details apperead at the end of the page were the user wont see easily*//
+    }
+    
+    .floatingTrainers2 img{
+    margin: 15px;
+    
+    max-width: 75%;
+    }
+    
+    .containerTraining{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+    .InfoExtraTraining{
+      background-color: #788C8F ;
+      padding: 15px;
+      }
+    
+    .InfoExtraTraining p, ul {
+    color:white;
+    font-size: 20px;
+    }
+
+/* ------------------------------- CLOSE ADDED 15.04 BY SANDY------------------------------- */

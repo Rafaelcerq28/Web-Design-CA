@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+/*Adding banner style when the mouse is over*/
 document.addEventListener("DOMContentLoaded", function() {
     var blur = document.getElementById("blur");
     var shadow1 = document.getElementById("shadow1");

@@ -193,6 +193,8 @@ div.banner-style{
 .banner-position{
   position: relative;
 }
+
+
 /* ------------------------------- JOIN US HOME ------------------------------- */
 .button-home {
     background-color: white;
@@ -268,4 +270,21 @@ img.facebook{
 
 .icons{
   display: flex;
+}
+
+.footer-padding{
+  padding: 3rem;
+}
+
+@media (max-width: 768px) {
+  .footer-padding.sm {
+    padding-top: 3rem;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-padding.sm2 {
+    padding-top: 0.5rem;
+  }
 }

@@ -230,8 +230,27 @@ img.instagram{
   margin-right: 5px;
 }
 
+/*Small screens*/
+@media (max-width: 768px) {
+  img.instagram.sm {
+    width: 9%;
+    height: 100%;
+    margin-right: 5px;
+  }
+}
+
+
 img.facebook{
   width: 7%;
   height: 100%;
   margin-right: 5px;
 }
+
+@media (max-width: 768px) {
+  img.facebook.sm {
+    width: 9%;
+    height: 100%;
+    margin-right: 5px;
+  }
+}
+

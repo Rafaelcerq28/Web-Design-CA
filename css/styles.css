@@ -461,7 +461,9 @@ form {
     text-align: center;
     top:0;
     left:0;
-    z-index:9999; //*this is needed to make the image with the detail appear in the position of the page where we are, wthout this the details apperead at the end of the page were the user wont see easily*//
+    z-index:9999; //*this is needed to make the image with the detail appear in the 
+    position of the page where we are, wthout this the details apperead at the end 
+    of the page were the user wont see easily*//
     }
     
     .floatingTrainers img{
@@ -499,7 +501,9 @@ form {
     text-align: center;
     top:0;
     left:0;
-    z-index:9999; //*this is needed to make the image with the detail appear in the position of the page where we are, wthout this the details apperead at the end of the page were the user wont see easily*//
+    z-index:9999; //*this is needed to make the image with the detail appear in the position 
+    of the page where we are, wthout this the details apperead at the end of the page were 
+    the user wont see easily*//
     }
     
     .floatingTrainers2 img{

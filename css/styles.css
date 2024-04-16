@@ -1,6 +1,6 @@
 /* ------------------------------- BACKGROUND IMAGE ------------------------------- */
 .webpage-background{
-	background-image: url('https://images.squarespace-cdn.com/content/v1/6088bf84f6460a6aaca60f42/1623039564791-SWZ7SOVSSIPIW1VCL2G9/610_9576.jpg');
+	background-image: url('../images/bgimg.png');
 	background-size: cover;
 
 }
@@ -278,13 +278,13 @@ img.facebook{
 
 @media (max-width: 768px) {
   .footer-padding.sm {
-    padding-top: 3rem;
+    padding-top: 3rem !important;
     padding-bottom: 0px;
   }
 }
 
 @media (max-width: 768px) {
   .footer-padding.sm2 {
-    padding-top: 0.5rem;
+    padding-top: 0.5rem !important;
   }
 }

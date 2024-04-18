@@ -289,9 +289,22 @@ img.facebook{
   }
 }
 
+/* ------------------------------- Extra ------------------------------- */
+.table-style{
+    border:1px solid black;
+}
 
+.padding-style{
+  padding-top: 3rem !important;
+}
 
+.hide-table{
+  display: none !important;
+}
 
+.center-hint{
+  display: ruby-text;
+}
 /* ------------------------------- ADDED 15.04 BY SANDY------------------------------- */
 /* ------------------------------- FORM ------------------------------- */
 

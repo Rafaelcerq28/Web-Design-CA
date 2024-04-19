@@ -237,19 +237,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
 var generateRand = Math.floor(Math.random() * 10 + 1);
 
+/*Method to guess the number*/
+
 function guess(){
+    //get the values from the HTML page
     var number = document.getElementById("numberg").value.trim();
     var hint = document.getElementById("hint");
     var resultMsg = document.getElementById("result-message");
 
-    console.log("valor digitado: " + number);
-
+    //check if the value is a number and give the results
     if(isNaN(number)){
         alert("Only numbers are allowed")
     }else if(number == generateRand){
         resultMsg.classList.remove("hide-table");
         document.getElementById("result-message").innerHTML = "Congratulations, you got the right number!"
     }else if(number > 10 || number < 0){
+        resultMsg.classList.remove("hide-table");
         document.getElementById("result-message").innerHTML = "The input should be between 0 and 10"
     }else{
         resultMsg.classList.remove("hide-table");
@@ -257,10 +260,13 @@ function guess(){
     }
 }
 
+//method to generate a hint when the button is clicked
 function getHint(){
+    //get the values from the HTML page
     var hint = document.getElementById("hint");
     let number = document.getElementById("numberg").value;
     
+    //print the results in the page
     if(number > generateRand){
         document.getElementById("hint").innerHTML = "<b> < </>"
     }else{
